@@ -124,13 +124,10 @@ Please check the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 - [ ] Meal planning & grocery list generation
 - [ ] Community recipe sharing
 - [ ] Nutrition tracking and macros
-- [ ] Integration with smart appliances (Instant Pot, Thermomix)
+
 - [ ] Mobile app (iOS & Android)
 
 ---
 
----
-
----
 
 <p align="center"></p>
