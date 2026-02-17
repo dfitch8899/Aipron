@@ -40,7 +40,7 @@ Whether you're a beginner fumbling through your first stir-fry or a seasoned coo
 ### Prerequisites
 
 - Node.js v18+ (or Python 3.10+ if using the Python version)
-- An API key from [Anthropic](https://www.anthropic.com) or [OpenAI](https://platform.openai.com)
+- An API key from [OpenAI](https://platform.openai.com) (Realtime API)
 - npm or yarn
 
 ### Installation
@@ -62,8 +62,7 @@ cp .env.example .env
 Open `.env` and add your credentials:
 
 ```env
-ANTHROPIC_API_KEY=your_api_key_here
-# or
+
 OPENAI_API_KEY=your_api_key_here
 
 APP_PORT=3000
@@ -134,4 +133,4 @@ Please check the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-<p align="center">Made with ❤️ and a dash of 🌶️ by the Aipron team</p>
+<p align="center"></p>
