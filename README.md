@@ -2,15 +2,15 @@
 
 **Your AI-powered cooking assistant** — get personalized recipes, step-by-step guidance, and smart kitchen help, all in one place.
 
-![AIpron Banner](https://img.shields.io/badge/AI-Powered-orange?style=for-the-badge&logo=openai)
+![Aipron Banner](https://img.shields.io/badge/AI-Powered-orange?style=for-the-badge&logo=openai)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
 
 ---
 
-## 🍽️ What is AIpron?
+## 🍽️ What is Aipron?
 
-AIpron is an intelligent cooking assistant that helps home cooks and culinary enthusiasts:
+Aipron is an intelligent cooking assistant that helps home cooks and culinary enthusiasts:
 
 - Generate personalized recipes based on ingredients you already have
 - Follow step-by-step cooking guidance with real-time tips
@@ -18,14 +18,14 @@ AIpron is an intelligent cooking assistant that helps home cooks and culinary en
 - Scale recipes up or down automatically
 - Discover meals based on dietary preferences, allergies, or cuisine style
 
-Whether you're a beginner fumbling through your first stir-fry or a seasoned cook looking for inspiration, AIpron has you covered.
+Whether you're a beginner fumbling through your first stir-fry or a seasoned cook looking for inspiration, Aipron has you covered.
 
 ---
 
 ## ✨ Features
 
 - **🧠 AI Recipe Generation** — Describe what you're craving or what's in your fridge and get a tailored recipe instantly
-- **🔄 Ingredient Substitution** — Out of an ingredient? AIpron suggests smart swaps that won't ruin the dish
+- **🔄 Ingredient Substitution** — Out of an ingredient? Aipron suggests smart swaps that won't ruin the dish
 - **📏 Serving Scaler** — Automatically adjusts ingredient quantities for any number of servings
 - **⏱️ Cooking Timers** — Built-in step timers to keep you on track
 - **🥗 Dietary Filters** — Supports vegan, vegetarian, gluten-free, keto, halal, and more
@@ -47,8 +47,8 @@ Whether you're a beginner fumbling through your first stir-fry or a seasoned coo
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/aipron.git
-cd aipron
+git clone https://github.com/yourusername/Aipron.git
+cd Aipron
 
 # Install dependencies
 npm install
@@ -69,25 +69,12 @@ OPENAI_API_KEY=your_api_key_here
 APP_PORT=3000
 ```
 
-### Run the App
-
-```bash
-# Development mode
-npm run dev
-
-# Production build
-npm run build
-npm start
-```
-
-Visit `http://localhost:3000` to start cooking! 🍳
-
 ---
 
 ## 🗂️ Project Structure
 
 ```
-aipron/
+Aipron/
 ├── src/
 │   ├── components/        # UI components
 │   ├── pages/             # App pages/routes
@@ -109,20 +96,12 @@ aipron/
 |-------------|------------------------|
 | Frontend    | React / Next.js         |
 | Backend     | Node.js / Express       |
-| AI Engine   | Claude (Anthropic) API  |
+| AI Engine   | ChatGPT API             |
 | Database    | PostgreSQL / Supabase   |
 | Styling     | Tailwind CSS            |
 | Deployment  | Vercel / Railway        |
 
 ---
-
-## 📸 Screenshots
-
-> _Add your screenshots here once the UI is ready!_
-
-```
-[App Screenshot Placeholder]
-```
 
 ---
 
@@ -151,18 +130,8 @@ Please check the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+---
 
 ---
 
-## 🙏 Acknowledgements
-
-- [Anthropic](https://www.anthropic.com) for Claude AI
-- The open-source cooking and recipe communities
-- Everyone who loves food and thinks AI can make the kitchen more fun
-
----
-
-<p align="center">Made with ❤️ and a dash of 🌶️ by the AIpron team</p>
+<p align="center">Made with ❤️ and a dash of 🌶️ by the Aipron team</p>
