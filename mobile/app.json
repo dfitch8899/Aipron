@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "AIpron",
+    "slug": "aipron",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aipron.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "AIpron needs microphone access for voice-guided cooking.",
+        "NSSpeechRecognitionUsageDescription": "AIpron uses speech recognition for hands-free cooking guidance."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.aipron.app",
+      "permissions": [
+        "RECORD_AUDIO",
+        "INTERNET"
+      ]
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "AIpron needs microphone access for voice-guided cooking."
+        }
+      ],
+      "expo-font"
+    ],
+    "scheme": "aipron"
+  }
+}
